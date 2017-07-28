@@ -1,0 +1,44 @@
+{
+  "name": "imglivev4",
+  "version": "1.0.0",
+  "description": "An Image Server for IOS, Android, Mac, Windows, and Linux (* require builds)",
+  "main": "none",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "Simas Juknelis",
+  "license": "MIT",
+  "build": {
+    "appId": "ImgLivev4",
+    "category": "Development",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "squirrel",
+      "icon": "build/icon.ico"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest"
+  }
+}
