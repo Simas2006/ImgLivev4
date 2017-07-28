@@ -2,7 +2,7 @@
   "name": "imglivev4",
   "version": "1.0.0",
   "description": "An Image Server for IOS, Android, Mac, Windows, and Linux (* require builds)",
-  "main": "none",
+  "main": "main.js",
   "scripts": {
     "test": "none"
   },
