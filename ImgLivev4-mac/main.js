@@ -8,7 +8,7 @@ function createWindow() {
   fs.readFile(__dirname + "/address.txt",function(err,data) {
     data = data.toString();
     win.loadURL("file://" + __dirname + (data == "notset" ? "/login" : "/list") + "/index.html");
-    win.webContents.openDevTools();
+    //win.webContents.openDevTools();
     win.on("closed",function() {
       win = null;
     });
