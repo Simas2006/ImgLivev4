@@ -7,7 +7,7 @@ ImgLivev4 Mobile Version is built using React Native, and is hosted on Expo as @
 
 ### ImgLivev4 for Mac, Windows, and Linux
 
-ImgLivev4 Desktop Version is built using Electron. Properties and settings for electron-builder in package.json are already set, just run ```npm run dist``` in the local directory. The built files will be in ./dist
+ImgLivev4 Desktop Version is built using Electron. To build as app, go to the local directory and run ```npm install --g electron-packager && electron-packager .```
 
 ### ImgLivev4 Server
 
