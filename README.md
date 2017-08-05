@@ -3,7 +3,7 @@ Also known as ImgLive 4.0.
 
 ### ImgLivev4 for iOS and Android
 
-ImgLivev4 Mobile Version is built using React Native, and is hosted on Expo as @simas06/imglivev4. Building and using locally using Expo XDE is also an option.
+ImgLivev4 Mobile Version is built using React Native, and is hosted on Expo as @simas06/imglivev4-ios. Building and using locally using Expo XDE is also an option.
 
 ### ImgLivev4 for Mac, Windows, and Linux
 
